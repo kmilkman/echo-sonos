@@ -3,8 +3,8 @@
 var auth = new Buffer("YOUR_USERNAME" + ":" + "YOUR_PASSWORD").toString("base64");
 
 var options = {
-  appid: "amzn1.echo-sdk-ams.app.ENTER_YOUR_APP_ID_FOR_ECHO_HERE",
-  host: "host_for_sonos_api",
+  appid: "amzn1.echo-sdk-ams.app.67136ce2-ba70-41eb-9172-2ce01cc0f88c",
+  host: "kmilkman.ddns.net",
   port: "5005",
   headers: {
       'Authorization': 'Basic ' + auth,
